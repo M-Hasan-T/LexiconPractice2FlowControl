@@ -6,6 +6,7 @@
         {
             do
             {
+                //Huvudmenyn visas en gång. Huvudmenyn visas alltid om inte användaren väljer 0.
                 MainMenu();
             } while (true);
         }
@@ -35,6 +36,7 @@
             }
         }
 
+        //Bygg ut menyn med val att exekvera de övriga övningarna.
         public static string ExpandMenu()
         {
             Console.WriteLine("==================");
@@ -93,6 +95,7 @@
             return secondInput;
         }
 
+        //Beräknar kostnaden för 1 person.
         public static int CalculatePris()
         {
             int pris = 0;
